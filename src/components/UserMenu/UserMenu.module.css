@@ -1,0 +1,11 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.userContainer {
+    display: flex;
+    flex-direction: row;
+}

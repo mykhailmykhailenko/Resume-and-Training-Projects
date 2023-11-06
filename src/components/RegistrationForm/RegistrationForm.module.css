@@ -1,0 +1,109 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+    background-color: #3ea9f5;
+    color: white;
+    font-family: sans-serif;
+}
+
+.registration-form {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.sub-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+}
+
+.text {
+    font-weight: 13px;
+}
+
+.red-text {
+    color: #b73626;
+    display: flex;
+    justify-content: space-around;
+}
+
+.big-text{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+
+.column-input {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.user-info {
+    width: 42%;
+    padding: 20px 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+ 
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.border {
+    border: 1px solid white;
+    margin: 8px 0;
+    padding: 8px;
+}
+
+.create-btn {
+    background-color: #28d2d0;
+    padding: 20px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.create-btn:hover {
+    background-color: #11a3a0;
+}
+
+
+.sing-up-btn {
+    background-color: #dd4b39;
+    padding: 15px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.sing-up-btn:hover {
+    background-color: #973528;
+}

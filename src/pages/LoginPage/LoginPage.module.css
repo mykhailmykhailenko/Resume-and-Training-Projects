@@ -1,0 +1,25 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    position: relative;
+}
+
+.switchBtn {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.switchBtn:hover {
+    color: #3ea9f5;
+    background-color: white;
+}

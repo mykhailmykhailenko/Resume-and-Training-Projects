@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    width: 60vw;
+    height: 60vh;
+    margin: 40px;
+}
+
+.chat-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 80%;
+    height: 100%;
+}

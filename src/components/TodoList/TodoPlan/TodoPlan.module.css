@@ -1,0 +1,9 @@
+.container {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+}

@@ -1,0 +1,79 @@
+
+.wrapper {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(80 75 66);
+    border: 2px solid salmon;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    
+ }
+ 
+.amountInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px ;
+    border: 2px solid salmon;
+    outline: none;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+}
+
+.amountInput::placeholder {
+    color:rgba(255, 255, 255, 0.688)
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px ;
+}
+
+.currencySelect {
+    width: 40%;
+    margin-right: 10px;
+    padding: 5px;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid salmon;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+
+option {
+    color: black;
+}
+
+.btn {
+    margin: 10px;
+    width: 50%;
+    padding: 5px;
+    border: 2px solid salmon;
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover {
+    background-color: salmon;
+}
+
+.resultField {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: 10px;
+    color: white;
+}
+

@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+
+.valid {
+    border: 2px solid green;
+    background-color: rgb(188, 238, 188);
+}
+
+
+.invalid {
+    border: 2px solid red;
+    background-color: lightpink;
+}
+
+.btn {
+    padding: 0 20px;
+    margin-left: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
