@@ -26,7 +26,7 @@ const MessageArea = (props) => {
         return () => {
             document.body.removeEventListener('keydown', keydownHandler)
         }
-    }, [inputMessage, keydownHandler])
+    })
 
     return (
         <div className={styles.container}>
