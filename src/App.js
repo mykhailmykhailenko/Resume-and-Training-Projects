@@ -8,8 +8,8 @@ import LoginPage from "./pages/LoginPage";
 import './App.css';
 import ProductLoader from "./components/ProductLoader";
 import MessengerPage from "./pages/MessengerPage";
-import CurrencyConverter from "./components/CurrencyConverter";
 import ResumeProject from "./components/ResumeProject";
+import CurrencyConverterV2 from "./components/CurrencyConverterV2";
 
 
 
@@ -48,7 +48,7 @@ class App extends React.Component {
                     <Route path="/loginPage" element={<LoginPage />}/>
                     <Route path="/productLoader" element={<ProductLoader />}/>
                     <Route path="/messengerPage" element={<MessengerPage />}/>
-                    <Route path="/CurrencyConverter" element={<CurrencyConverter />}/>
+                    <Route path="/CurrencyConverter" element={<CurrencyConverterV2 />}/>
                    
                 </Routes>
             </BrowserRouter>

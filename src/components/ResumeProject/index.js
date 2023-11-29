@@ -24,6 +24,8 @@ const ResumeProject = () => {
                             <li className={styles["sidebars-item"]}><span className={styles["sidebars-text"]}>JavaScript</span></li>
                             <li className={styles["sidebars-item"]}><span className={styles["sidebars-text"]}>React.js</span></li>
                             <li className={styles["sidebars-item"]}><span className={styles["sidebars-text"]}>Node.js</span></li>
+                            <li className={styles["sidebars-item"]}><span className={styles["sidebars-text"]}>Express.js</span></li>
+                            <li className={styles["sidebars-item"]}><span className={styles["sidebars-text"]}>PostgreSQL</span></li>
                         </ul>
                     </div>
                     <div className={styles["soft-skills-container"]}>
@@ -61,8 +63,10 @@ const ResumeProject = () => {
                     <ul className={styles["work-skills"]}>
                         <li>Learn and practice HTML5 and CSS3.</li>
                         <li>Learn and practice JavaScript.</li>
-                        <li>Learn and practice Node.js.</li>
                         <li>Learn and practice React.js.</li>
+                        <li>Learn and practice Node.js.</li>
+                        <li>Learn and practice Express.js.</li>
+                        <li>Learn and practice PostgreSQL</li>
                     </ul>
 
                     <div>
