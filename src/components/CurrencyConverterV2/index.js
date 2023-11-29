@@ -87,6 +87,7 @@ const CurrencyConverterV2 = () => {
             if(el.cc === 'USD' || el.cc === 'EUR' || el.cc === 'GBP' || el.cc === 'PLN') {
                 return <div key={el.cc}>{el.cc} - {(el.rate).toFixed(2)}</div>
             }
+            return null
         })
         return currentCourse;
     }
